@@ -13,7 +13,7 @@ csp = {
     ]
 }
 
-Talisman(app)
+Talisman(app, content_security_policy=csp)
 
 
 @app.route('/', methods=['GET'])
