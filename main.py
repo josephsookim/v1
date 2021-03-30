@@ -4,13 +4,27 @@ from flask_talisman import Talisman
 app = Flask(__name__)
 
 csp = {
-    'default-src': '*',
-    'script-src': [
-        'unsafe-inline',
-        '*'
+    'default-src': [
+        '\'self\''
     ],
-    'img-src': '*',
-    'connect-src': '*',
+    'script-src': [
+        '\'self\'',
+        'cdnjs.cloudflare.com',
+        'ajax.googleapis.com',
+        'cdn.jsdelivr.net',
+        'https://www.googletagmanager.com',
+        'https://www.google-analytics.com',
+        'https://ssl.google-analytics.com'
+    ],
+    'img-src': [
+        '\'self\'',
+        'www.googletagmanager.com',
+        'https://www.google-analytics.com'
+    ],
+    'connect-src': [
+        '\'self\'',
+        'https://www.google-analytics.com'
+    ],
 }
 
 '''
@@ -20,7 +34,11 @@ csp = {
 'cdn.jsdelivr.net',
 '''
 
-Talisman(app, content_security_policy=csp)
+Talisman(
+    app,
+    content_security_policy=csp,
+    content_security_policy_nonce_in=['script-src']
+)
 
 
 @app.route('/', methods=['GET'])
