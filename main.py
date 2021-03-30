@@ -12,12 +12,24 @@ csp = {
         '\'unsafe-inline\'',
         'cdn.jsdelivr.net',
         'ajax.googleapis.com',
+        'https://www.google-analytics.com',
+        'https://ssl.google-analytics.com',
+        'https://www.googletagmanager.com',
     ],
     'style-src': [
         '\'self\'',
         '\'unsafe-inline\'',
         'cdnjs.cloudflare.com',
         'cdn.jsdelivr.net',
+    ],
+    'img-src': [
+        '\'self\'',
+        'https://www.google-analytics.com',
+        'www.googletagmanager.com'
+    ],
+    'connect-src': [
+        '\'self\'',
+        'https://www.google-analytics.com',
     ],
 }
 
