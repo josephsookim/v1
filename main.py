@@ -7,11 +7,12 @@ csp = {
     'default-src': [
         '\'self\'',
         'cdnjs.cloudflare.com',
-        'ajax.googleapis.com',
         'cdn.jsdelivr.net',
     ],
     'script-src': [
         '\'self\'',
+        'cdn.jsdelivr.net',
+        'ajax.googleapis.com',
         'https://www.googletagmanager.com',
         'https://www.google-analytics.com',
         'https://ssl.google-analytics.com',
