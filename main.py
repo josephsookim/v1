@@ -4,10 +4,8 @@ from flask_talisman import Talisman
 app = Flask(__name__)
 
 csp = {
-    'default-src': [
-        '\'self\'',
-    ],
     'script-src': [
+        '\'self\'',
         'cdnjs.cloudflare.com',
         'ajax.googleapis.com',
         'cdn.jsdelivr.net',
@@ -15,9 +13,11 @@ csp = {
         'https://ssl.google-analytics.com',
     ],
     'img-src': [
+        '\'self\'',
         'https://www.google-analytics.com',
     ],
     'connect-src': [
+        '\'self\'',
         'https://www.google-analytics.com',
     ],
 }
