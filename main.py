@@ -16,13 +16,6 @@ csp = {
     ],
 }
 
-'''
-'\'self\'',
-'cdnjs.cloudflare.com',
-'ajax.googleapis.com',
-'cdn.jsdelivr.net',
-'''
-
 Talisman(
     app,
     content_security_policy=csp,
