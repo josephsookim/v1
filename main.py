@@ -9,6 +9,8 @@ csp = {
         'cdnjs.cloudflare.com',
         'ajax.googleapis.com',
         'cdn.jsdelivr.net',
+        '*.googleanalytics.com',
+        '*.google-analytics.com',
         'googletagmanager.com'
     ]
 }
