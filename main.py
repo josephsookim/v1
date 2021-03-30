@@ -6,14 +6,18 @@ app = Flask(__name__)
 csp = {
     'default-src': [
         '\'self\'',
-        'cdnjs.cloudflare.com',
-        'cdn.jsdelivr.net',
     ],
     'script-src': [
         '\'self\'',
         '\'unsafe-inline\'',
         'cdn.jsdelivr.net',
         'ajax.googleapis.com',
+    ],
+    'style-src': [
+        '\'self\'',
+        '\'unsafe-inline\'',
+        'cdnjs.cloudflare.com',
+        'cdn.jsdelivr.net',
     ],
 }
 
