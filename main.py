@@ -5,6 +5,12 @@ app = Flask(__name__)
 
 csp = {
     'default-src': '*',
+    'script-src': [
+        'unsafe-inline',
+        '*'
+    ],
+    'img-src': '*',
+    'connect-src': '*',
 }
 
 '''
