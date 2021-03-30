@@ -9,10 +9,12 @@ csp = {
         'cdnjs.cloudflare.com',
         'ajax.googleapis.com',
         'cdn.jsdelivr.net',
-        'unsafe-inline',
-        'https://www.googletagmanager.com',
         'https://www.google-analytics.com',
         'https://www.ssl.google-analytics.com',
+    ],
+    'script-src': [
+        '\'self\'',
+        'unsafe-inline',
     ],
 }
 
