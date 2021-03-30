@@ -2,16 +2,17 @@ from flask import Flask, render_template
 from flask_talisman import Talisman
 
 app = Flask(__name__)
-<< << << < HEAD
 
 csp = {
-    'default-src': [
-        '\'self\'',
-        'cdnjs.cloudflare.com',
-        'ajax.googleapis.com',
-        'cdn.jsdelivr.net',
-    ],
+    'default-src': '*',
 }
+
+'''
+'\'self\'',
+'cdnjs.cloudflare.com',
+'ajax.googleapis.com',
+'cdn.jsdelivr.net',
+'''
 
 Talisman(app, content_security_policy=csp)
 
