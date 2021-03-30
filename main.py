@@ -12,16 +12,16 @@ csp = {
         'cdnjs.cloudflare.com',
         'ajax.googleapis.com',
         'cdn.jsdelivr.net',
-        'google-analytics.com',
-        'ssl.google-analytics.com',
+        'https://www.google-analytics.com',
+        'https://ssl.google-analytics.com',
     ],
     'img-src': [
         '\'self\'',
-        'google-analytics.com',
+        'https://www.google-analytics.com',
     ],
     'connect-src': [
         '\'self\'',
-        'google-analytics.com',
+        'https://www.google-analytics.com',
     ],
 }
 
