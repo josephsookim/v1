@@ -35,9 +35,6 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-}
-
-#typed1 {
   font-size: 60px;
 }
 
@@ -77,10 +74,27 @@ html {
 }
 
 #projects {
-  height: 800px;
+  margin: auto;
+  width: 50%;
   background-color: #ffffff;
+  padding-left: 75px;
+}
+
+#projects-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#project-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #4b4b4b;
+  font-size: 60px;
 }
 
 .project {
-  height: 100px;
+  width: 200px;
+  margin-bottom: 25rem;
+  margin-right: 20px;
 }
