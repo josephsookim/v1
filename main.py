@@ -5,7 +5,10 @@ app = Flask(__name__)
 << << << < HEAD
 
 csp = {
-    'default-src': '*'
+    'default-src': [
+        '\'self\'',
+        '*'
+    ],
 }
 
 '''
