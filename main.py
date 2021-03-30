@@ -11,7 +11,7 @@ csp = {
     ],
     'script-src': [
         '\'self\'',
-        '\'unsafe-inline\',
+        '\'unsafe-inline\'',
         'cdn.jsdelivr.net',
         'ajax.googleapis.com',
     ],
