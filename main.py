@@ -13,18 +13,6 @@ csp = {
         '\'self\'',
         'cdn.jsdelivr.net',
         'ajax.googleapis.com',
-        'https://www.googletagmanager.com',
-        'https://www.google-analytics.com',
-        'https://ssl.google-analytics.com',
-    ],
-    'img-src': [
-        '\'self\'',
-        'www.googletagmanager.com',
-        'https://www.google-analytics.com',
-    ],
-    'connect-src': [
-        '\'self\'',
-        'https://www.google-analytics.com',
     ],
 }
 
