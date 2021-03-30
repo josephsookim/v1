@@ -31,10 +31,7 @@ csp = {
         'https://www.google-analytics.com',
         'www.googletagmanager.com'
     ],
-    'connect-src': [
-        '\'self\'',
-        'https://www.google-analytics.com',
-    ],
+    'connect-src': '*',
 }
 
 Talisman(
