@@ -1,11 +1,11 @@
 $(window).scroll(function(){
     var s = $(window).scrollTop();
-    
-    console.log(s)
 
-    if(s <360){
+    if(s<360){
         $('.fab').css('color', 'white');
-    } else{
+    } else if(s<1170){
         $('.fab').css('color', 'black');
+    } else{
+        $('.fab').css('color', 'gray');
     }
 });
