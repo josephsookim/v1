@@ -9,7 +9,7 @@ csp = {
         'cdnjs.cloudflare.com',
         'ajax.googleapis.com',
         'cdn.jsdelivr.net',
-        'googletagmanager.com',
+        'googletagmanager.com'
     ]
 }
 
