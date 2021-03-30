@@ -7,15 +7,11 @@ app = Flask(__name__)
 csp = {
     'default-src': [
         '\'self\'',
-        '*'
+        'cdnjs.cloudflare.com',
+        'ajax.googleapis.com',
+        'cdn.jsdelivr.net',
     ],
 }
-
-'''
-'cdnjs.cloudflare.com',
-'ajax.googleapis.com',
-'cdn.jsdelivr.net',
-'''
 
 Talisman(app, content_security_policy=csp)
 
