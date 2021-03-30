@@ -6,13 +6,20 @@ app = Flask(__name__)
 csp = {
     'default-src': [
         '\'self\'',
+    ],
+    'script-src': [
         'cdnjs.cloudflare.com',
         'ajax.googleapis.com',
         'cdn.jsdelivr.net',
-        '*.googleanalytics.com',
-        '*.google-analytics.com',
-        'googletagmanager.com'
-    ]
+        'https://www.google-analytics.com',
+        'https://ssl.google-analytics.com',
+    ],
+    'img-src': [
+        'https://www.google-analytics.com',
+    ],
+    'connect-src': [
+        'https://www.google-analytics.com',
+    ],
 }
 
 Talisman(app, content_security_policy=csp)
