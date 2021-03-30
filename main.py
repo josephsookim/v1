@@ -2,30 +2,17 @@ from flask import Flask, render_template
 from flask_talisman import Talisman
 
 app = Flask(__name__)
+<< << << < HEAD
 
 csp = {
-    'default-src': [
-        '\'self\'',
-    ],
-    'script-src': [
-        '\'self\'',
-        'unsafe-inline',
-        'cdnjs.cloudflare.com',
-        'ajax.googleapis.com',
-        'cdn.jsdelivr.net',
-        'https://www.google-analytics.com',
-        'https://www.ssl.google-analytics.com',
-    ],
-    'img-src': [
-        '\'self\'',
-        'www.googletagmanager.com',
-        'https://www.google-analytics.com',
-    ],
-    'connect-src': [
-        '\'self\'',
-        'https://www.google-analytics.com',
-    ],
+    'default-src': '*'
 }
+
+'''
+'cdnjs.cloudflare.com',
+'ajax.googleapis.com',
+'cdn.jsdelivr.net',
+'''
 
 Talisman(app, content_security_policy=csp)
 
