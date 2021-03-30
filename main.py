@@ -22,6 +22,10 @@ csp = {
         'cdnjs.cloudflare.com',
         'cdn.jsdelivr.net',
     ],
+    'font-src': [
+        '\'self\'',
+        'cdnjs.cloudflare.com',
+    ],
     'img-src': [
         '\'self\'',
         'https://www.google-analytics.com',
