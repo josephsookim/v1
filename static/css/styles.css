@@ -43,7 +43,7 @@ html {
 
 #about {
   background-color: #d3d3d3;
-  height: 100%;
+  height: 90%;
   width: 100%;
 }
 
@@ -89,6 +89,7 @@ html {
 }
 
 #projects-list {
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
