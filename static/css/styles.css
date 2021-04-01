@@ -49,7 +49,7 @@ html {
 
 #code {
   /*width: 700px;*/
-  width: 70%;
+  width: 80%;
   margin: auto;
   padding-top: 50px;
   /*height: 700px;*/
@@ -59,7 +59,7 @@ html {
 }
 
 #console-title-bar {
-  width: 70%;
+  width: 80%;
   margin: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -72,7 +72,7 @@ html {
 
 #console {
   /*width: 700px;*/
-  width: 70%;
+  width: 80%;
   padding: 20px;
   /*height: 650px;*/
   height: 80%;
