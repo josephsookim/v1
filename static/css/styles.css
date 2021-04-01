@@ -52,7 +52,8 @@ html {
   width: 70%;
   margin: auto;
   padding-top: 50px;
-  height: 700px;
+  /*height: 700px;*/
+  height: 70%;
   text-align: left;
   color: #fafafa;
 }
@@ -73,7 +74,8 @@ html {
   /*width: 700px;*/
   width: 70%;
   padding: 20px;
-  height: 650px;
+  /*height: 650px;*/
+  height: 70%;
   margin: auto;
   background: #4b4b4b;
   border-bottom-left-radius: 10px;
@@ -100,7 +102,8 @@ html {
 }
 
 .project {
-  width: 200px;
+  /*width: 200px;*/
+  width: 20%;
   margin-bottom: 25rem;
   margin-right: 20px;
 }
