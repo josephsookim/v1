@@ -43,7 +43,7 @@ html {
 
 #about {
   background-color: #d3d3d3;
-  height: 800px;
+  height: 160%;
   width: 100%;
 }
 
@@ -53,7 +53,7 @@ html {
   margin: auto;
   padding-top: 50px;
   /*height: 700px;*/
-  height: 150%;
+  height: 140%;
   text-align: left;
   color: #fafafa;
 }
@@ -75,7 +75,7 @@ html {
   width: 70%;
   padding: 20px;
   /*height: 650px;*/
-  height: 150%;
+  height: 140%;
   margin: auto;
   background: #4b4b4b;
   border-bottom-left-radius: 10px;
