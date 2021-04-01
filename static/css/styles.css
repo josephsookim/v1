@@ -48,8 +48,8 @@ html {
 }
 
 #code {
-  /*  margin-top:150px;*/
-  width: 700px;
+  /*width: 700px;*/
+  width: 100%;
   margin: auto;
   padding-top: 50px;
   height: 700px;
@@ -68,7 +68,7 @@ html {
 }
 
 #console {
-  width: 700px;
+  /*width: 700px;*/
   padding: 20px;
   height: 650px;
   margin: auto;
