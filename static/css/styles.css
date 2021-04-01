@@ -78,7 +78,7 @@ html {
   background: #4b4b4b;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  font-size: 60%;
+  font-size: 100%;
 }
 
 #projects {
@@ -103,7 +103,7 @@ html {
 .project {
   /*width: 200px;*/
   width: 10%;
-  font-size: 60%;
+  font-size: 100%;
   margin-bottom: 25rem;
   margin-right: 20px;
 }
