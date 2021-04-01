@@ -48,7 +48,6 @@ html {
 }
 
 #code {
-  /*width: 700px;*/
   width: 70%;
   margin: auto;
   padding-top: 50px;
@@ -70,7 +69,6 @@ html {
 }
 
 #console {
-  /*width: 700px;*/
   width: 70%;
   padding: 20px;
   height: 650px;
@@ -101,7 +99,6 @@ html {
 }
 
 .project {
-  /*width: 200px;*/
   width: 10%;
   font-size: 100%;
   margin-bottom: 25rem;
