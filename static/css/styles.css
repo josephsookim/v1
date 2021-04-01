@@ -59,6 +59,7 @@ html {
 
 #console-title-bar {
   width: 70%;
+  margin: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background: white;
