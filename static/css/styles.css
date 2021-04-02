@@ -99,8 +99,8 @@ html {
 
 .project {
   width: 15%;
-  margin-bottom: 25rem;
-  margin-right: 20px;
+  margin-bottom: 10%;
+  margin-right: 20%;
 }
 
 @media only screen and (max-width: 1000px) {
