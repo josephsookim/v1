@@ -27,6 +27,6 @@ var typed2 = new Typed('#typed2', {
         Joseph.emails<br> `[\'josek16@uci.edu\', \'josephkimcodes@gmail.com\']<br><br> >>>`^200\
         Joseph.resume<br> `\'Add Link to Resume Here\'<br><br> >>>`'
     ],
-    typeSpeed: 10,
+    typeSpeed: 25,
     backSpeed: 0
 });
