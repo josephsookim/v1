@@ -110,7 +110,13 @@ html {
 
   .project {
     font-size: 70%;
-    width: 30%;
+    width: 40%;
+  }
+
+  #projects {
+    margin: auto;
+    width: 70%;
+    background-color: #ffffff;
   }
 }
 
