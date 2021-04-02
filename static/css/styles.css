@@ -80,7 +80,7 @@ html {
 
 #projects {
   margin: auto;
-  width: 80%;
+  width: 70%;
   background-color: #ffffff;
 }
 
@@ -99,8 +99,8 @@ html {
 
 .project {
   width: 15%;
-  margin-bottom: 10%;
-  margin-right: 20%;
+  margin-bottom: 5%;
+  margin-right: 10%;
 }
 
 @media only screen and (max-width: 1000px) {
