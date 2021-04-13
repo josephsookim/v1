@@ -4,7 +4,7 @@ First iteration of my personal website
 
 Built by [Joseph Kim](https://github.com/josephsookim/)
 
-Site URL: www.josephsookim.com
+Second Iteration: https://github.com/josephsookim/v2/
 
 ## Built With
 
